@@ -40,7 +40,7 @@ const KoltinBasic = [
         body={
             <div>
                 <iframe src="https://pl.kotl.in/RvhqwG873" style={{ width: '100%' }}></iframe>
-
+                <a href="https://kotlinlang.org/docs/home.html">Doc</a>
             </div>
         }
     />, () => <TextLayout
@@ -56,6 +56,7 @@ const KoltinBasic = [
                     Implizite Typangabe
                 </ListItemSmall>
                 <iframe src="https://pl.kotl.in/KQrqd_CGc?from=1&to=1" style={{ width: '100%' }}></iframe>
+                <a href="https://kotlinlang.org/docs/basic-syntax.html#functions">Doc</a>
             </div>
         }
     />,
@@ -65,6 +66,7 @@ const KoltinBasic = [
         body={
             <List>
                 <iframe src="https://pl.kotl.in/qGc077xV2" style={{ width: '100%' }}></iframe>
+                <a href="https://kotlinlang.org/docs/basic-syntax.html#variables">Doc</a>
             </List>
         
         }
@@ -82,6 +84,7 @@ const KoltinBasic = [
                     Implizite Typangabe
                 </ListItemSmall>
                 <iframe src="https://pl.kotl.in/BZGkv-RCC?from=2&to=6" style={{ width: '100%' }}></iframe>
+                <a href="https://kotlinlang.org/docs/basic-syntax.html#functions">Doc</a>
         </div>
         }
     />,  () => <TextLayout
@@ -93,11 +96,13 @@ const KoltinBasic = [
                     Class
                 </ListItemSmall>
                <iframe src="https://pl.kotl.in/npb-7jP2i" style={{ width: '100%' }}></iframe>
-
+               <a href="https://kotlinlang.org/docs/basic-syntax.html#creating-classes-and-instances">Doc</a>
                <ListItemSmall component="li">
                    Data Class
                 </ListItemSmall>
                <iframe src="https://pl.kotl.in/BT6L5o-2e?from=1&to=1" style={{ width: '100%' }}></iframe>
+
+               <a href="https://kotlinlang.org/docs/idioms.html">Doc</a>
            </div>
         }
     />,  () => <TextLayout
@@ -106,6 +111,7 @@ const KoltinBasic = [
         body={
            <div>
                 <iframe src="https://pl.kotl.in/xmHajkkmH?from=2&to=9" style={{ width: '100%', height: '250px' }}></iframe>
+                <a href="https://kotlinlang.org/docs/collections-overview.html#collection-types">Doc</a>
            </div>
         }
     />,  

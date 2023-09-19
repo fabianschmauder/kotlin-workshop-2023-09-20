@@ -1,27 +1,20 @@
 const timeTable = [
 	{
-		time: "15:00",
-		text: "Start & Laudatio",
+		time: "9:00",
+		text: "Willkommen",
 	},
 	{
-		time: "15:20",
-		text: "Pitches der Absolvent*Innen",
+		time: "9:30",
+		text: "Kotlin Basics",
 	},
 	{
-		time: "15:35",
-		text: "Pitches der Partnerunternehmen",
-	},
-	{
-		time: "15:45",
+		time: "12:30",
 		text: "Pause",
 	},
+	
 	{
-		time: "16:00",
-		text: "Networking in Breakout Rooms",
-	},
-	{
-		time: "17:30",
-		text: "Open Networking & Aftershow",
-	},
+		time: "13:30",
+		text: "Spring Boot Kotlin",
+	}
 ];
 export default timeTable;

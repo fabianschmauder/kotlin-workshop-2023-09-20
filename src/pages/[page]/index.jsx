@@ -4,6 +4,7 @@ import { useNavigation } from "../../hooks/navigation";
 import lau from "../../templates/slides/laudatio"
 import basic from "../../templates/slides/kotlin-basic"
 import spring from "../../templates/slides/kotlin-spring-start"
+import optimizations from "../../templates/slides/kotlin-optimization"
 
 const Agenda = dynamic(() => import("../../templates/slides/agenda"));
 const NeueFische = dynamic(() => import("../../templates/slides/neue-fische"));
@@ -21,8 +22,7 @@ const slides = [
 	...lau,
 	...basic,
 	...spring,
-	
-	ThankYou,
+	...optimizations
 ];
 
 const Page = () => {
