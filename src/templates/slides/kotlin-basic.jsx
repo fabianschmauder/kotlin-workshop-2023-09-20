@@ -1,11 +1,9 @@
 import React from "react";
 import Cover from "../cover";
-import ImageText from "../image-text";
+
 import TextLayout from "../text-layout";
 import List from "../../atoms/list";
 import ListItemSmall from "../../atoms/list-item-small";
-import NemoText from "../../atoms/nemo-text";
-import bootcampImg from "../../ions/images/bootcamp.jpg";
 
 const KoltinBasic = [
 
