@@ -8,7 +8,6 @@ import optimizations from "../../templates/slides/kotlin-optimization"
 
 const Agenda = dynamic(() => import("../../templates/slides/agenda"));
 const NeueFische = dynamic(() => import("../../templates/slides/neue-fische"));
-const ThankYou = dynamic(() => import("../../templates/slides/thank-you"));
 const Welcome = dynamic(() => import("../../templates/slides/welcome"));
 
 /**
