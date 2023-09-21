@@ -3,12 +3,12 @@ import Cover from "../cover";
 import TextLayout from "../text-layout";
 import List from "../../atoms/list";
 import ListItemSmall from "../../atoms/list-item-small";
-const KoltinOptimization = [
+const KotlinOptimization = [
 
     () => <Cover title="Kotlin Basics" subtitle={"Part 2"} />,
 
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Null Saftey"
         body={
             <List>
@@ -20,7 +20,7 @@ const KoltinOptimization = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Default values, Named arguments"
         body={
             <List>
@@ -30,7 +30,7 @@ const KoltinOptimization = [
         }
     />
     , () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Extension Functions"
         body={
             <List>
@@ -40,7 +40,7 @@ const KoltinOptimization = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Multi line Strings"
         body={
             <List>
@@ -53,7 +53,7 @@ const KoltinOptimization = [
 
 
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Post"
         body={
             <List>
@@ -62,7 +62,7 @@ const KoltinOptimization = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Aufgabe"
         body={
             <List>
@@ -78,7 +78,7 @@ const KoltinOptimization = [
     />,
 
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="If"
         body={
             <List>
@@ -88,7 +88,7 @@ const KoltinOptimization = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Enum"
         body={
             <List>
@@ -96,7 +96,7 @@ const KoltinOptimization = [
             </List>
         }
     />, () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="When"
         body={
             <List>
@@ -105,7 +105,7 @@ const KoltinOptimization = [
             </List>
         }
     />, () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="loops"
         body={
             <List>
@@ -114,7 +114,7 @@ const KoltinOptimization = [
             </List>
         }
     />, () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Ranges"
         body={
             <List>
@@ -125,7 +125,7 @@ const KoltinOptimization = [
     />,
 
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Aufgabe"
         body={
             <List>
@@ -151,7 +151,7 @@ const KoltinOptimization = [
     />,
 
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Infix"
         body={
             <List>
@@ -161,7 +161,7 @@ const KoltinOptimization = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Aufgabe"
         body={
             <List>
@@ -173,7 +173,7 @@ const KoltinOptimization = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Map"
         body={
             <List>
@@ -183,7 +183,7 @@ const KoltinOptimization = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Aufgabe"
         body={
             <List>
@@ -195,7 +195,7 @@ const KoltinOptimization = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Typealias"
         body={
             <List>
@@ -205,7 +205,7 @@ const KoltinOptimization = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Aufgabe"
         body={
             <List>
@@ -220,7 +220,7 @@ const KoltinOptimization = [
     () => <Cover title="Kotlin" subtitle={"JPA"} />,
 
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="JPA"
         body={
             <List>
@@ -231,7 +231,7 @@ const KoltinOptimization = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Aufgabe"
         body={
             <List>
@@ -244,7 +244,7 @@ const KoltinOptimization = [
     />,
     () => <Cover title="Kotlin" subtitle={"MockK"} />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="MockK start"
         body={
             <List>
@@ -257,7 +257,7 @@ const KoltinOptimization = [
     />,
 
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="MockK spring"
         body={
             <List>
@@ -272,7 +272,7 @@ const KoltinOptimization = [
     () => <Cover title="Kotlin" subtitle={"Coroutines"} />,
 
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Coroutines"
         body={
             <List>
@@ -336,7 +336,7 @@ const KoltinOptimization = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Aufgabe"
         body={
             <List>
@@ -361,7 +361,7 @@ const KoltinOptimization = [
     />,
     () => <Cover title="Kotlin" subtitle={"Migration"} />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Aufgabe"
         body={
             <List>
@@ -382,7 +382,7 @@ const KoltinOptimization = [
     />,
     () => <Cover title="Kotlin" subtitle={"ktor"} />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Aufgabe"
         body={
             <List>
@@ -396,4 +396,4 @@ const KoltinOptimization = [
     />,
 ];
 
-export default KoltinOptimization;
+export default KotlinOptimization;

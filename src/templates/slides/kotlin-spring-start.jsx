@@ -4,12 +4,12 @@ import TextLayout from "../text-layout";
 import List from "../../atoms/list";
 import ListItemSmall from "../../atoms/list-item-small";
 
-const KoltinSpring = [
+const KotlinSpring = [
     
-    () => <Cover title="Spring Boot" subtitle={"Koltin"} />,
+    () => <Cover title="Spring Boot" subtitle={"Kotlin"} />,
    
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Setup"
         body={
           <div>
@@ -30,7 +30,7 @@ const KoltinSpring = [
     />,
    
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="REST Controller"
         body={
             <div>
@@ -45,7 +45,7 @@ const KoltinSpring = [
     />,
    
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Service"
         body={
             <div>
@@ -57,7 +57,7 @@ const KoltinSpring = [
         }
     />,  
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Aufgabe Spring Boot"
         body={
            <List>
@@ -76,9 +76,9 @@ const KoltinSpring = [
            </List>
         }
     />,
-    () => <Cover title="Testing" subtitle={"Koltin"} />,
+    () => <Cover title="Testing" subtitle={"Kotlin"} />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="filter"
         body={
             <List>
@@ -89,7 +89,7 @@ const KoltinSpring = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="JUnit"
         body={
             <List>
@@ -100,7 +100,7 @@ const KoltinSpring = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Integrationtest"
         body={
             <List>
@@ -110,7 +110,7 @@ const KoltinSpring = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="WebMVC"
         body={
             <List>
@@ -119,7 +119,7 @@ const KoltinSpring = [
         }
     />,
    // () => <TextLayout
-     //   title="Koltin"
+     //   title="Kotlin"
       //  subtitle="kmock"
        // body={
         //    <List>
@@ -133,4 +133,4 @@ const KoltinSpring = [
 
 ];
 
-export default KoltinSpring;
+export default KotlinSpring;
