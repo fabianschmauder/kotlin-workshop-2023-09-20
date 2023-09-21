@@ -10,7 +10,7 @@ import ListItemSmall from "../../atoms/list-item-small";
 import Box from "@mui/material/Box";
 const Laudatio = [
 
-    () => <Cover title="Welcome" subtitle={"Koltin"} />,
+    () => <Cover title="Welcome" subtitle={"Kotlin"} />,
     () => <Layout>
     <Layer>
         <Box

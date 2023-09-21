@@ -5,11 +5,11 @@ import TextLayout from "../text-layout";
 import List from "../../atoms/list";
 import ListItemSmall from "../../atoms/list-item-small";
 
-const KoltinBasic = [
+const KotlinBasic = [
 
-    () => <Cover title="Basic" subtitle={"Koltin"} />,
+    () => <Cover title="Basic" subtitle={"Kotlin"} />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Warum Kotlin"
         body={
             <List>
@@ -35,7 +35,7 @@ const KoltinBasic = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Hello World"
         body={
             <div>
@@ -44,7 +44,7 @@ const KoltinBasic = [
             </div>
         }
     />, () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Functions"
         body={
             <div>
@@ -61,7 +61,7 @@ const KoltinBasic = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Variable"
         body={
             <List>
@@ -72,7 +72,7 @@ const KoltinBasic = [
         }
     />,
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Basic Types"
         body={
             <div>
@@ -88,7 +88,7 @@ const KoltinBasic = [
         </div>
         }
     />,  () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Classes"
         body={
            <div>
@@ -106,7 +106,7 @@ const KoltinBasic = [
            </div>
         }
     />,  () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="List"
         body={
            <div>
@@ -116,7 +116,7 @@ const KoltinBasic = [
         }
     />,  
     () => <TextLayout
-        title="Koltin"
+        title="Kotlin"
         subtitle="Aufgabe"
         body={
            <List>
@@ -145,4 +145,4 @@ const KoltinBasic = [
 
 ];
 
-export default KoltinBasic;
+export default KotlinBasic;
