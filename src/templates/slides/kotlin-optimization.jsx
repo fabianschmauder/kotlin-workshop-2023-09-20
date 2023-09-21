@@ -242,6 +242,33 @@ const KoltinOptimization = [
             </List>
         }
     />,
+    () => <Cover title="Kotlin" subtitle={"MockK"} />,
+    () => <TextLayout
+        title="Koltin"
+        subtitle="MockK start"
+        body={
+            <List>
+
+                <iframe src="https://pl.kotl.in/qbHvxkdDX" style={{ width: '100%', minHeight: '300px' }}></iframe>
+                <a href="https://mockk.io/">Doc</a>
+         
+            </List>
+        }
+    />,
+
+    () => <TextLayout
+        title="Koltin"
+        subtitle="MockK spring"
+        body={
+            <List>
+
+                <iframe src="https://pl.kotl.in/kAKVmRUQg" style={{ width: '100%', minHeight: '300px' }}></iframe>
+                <a href="https://spring.io/guides/tutorials/spring-boot-kotlin/">Doc</a>
+            </List>
+        }
+    />,
+
+
     () => <Cover title="Kotlin" subtitle={"Coroutines"} />,
 
     () => <TextLayout
@@ -276,7 +303,7 @@ const KoltinOptimization = [
         }
     />,() => <TextLayout
         title="Coroutines"
-        subtitle="light weight"
+        subtitle="scope"
         body={
             <List>
 
