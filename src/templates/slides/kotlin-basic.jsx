@@ -10,26 +10,26 @@ const KotlinBasic = [
     () => <Cover title="Basic" subtitle={"Kotlin"} />,
     () => <TextLayout
         title="Kotlin"
-        subtitle="Warum Kotlin"
+        subtitle="Why Kotlin?"
         body={
             <List>
                 <ListItemSmall component="li">
-                    - Weiterentwicklung von Java sehr langsam
+                    - Development of Java very slow
                 </ListItemSmall>
                 <ListItemSmall component="li">
-                    - Weniger Boilerplate Code
+                    - Less Boilerplate Code
                 </ListItemSmall>
                 <ListItemSmall component="li">
-                    - Besser Wartbarkeit
+                    - Better maintainability
                 </ListItemSmall>
                 <ListItemSmall component="li">
-                    - Wir können nach Java bytecode oder auch JavaScript übersetzen
+                    - We can translate to Java bytecode or JavaScript
                 </ListItemSmall>
                 <ListItemSmall component="li">
-                    - Wir können das Java Ökosystem nutzen (z.B. Spring Boot)
+                    - We can use the Java ecosystem (e.g. Spring Boot)
                 </ListItemSmall>
                 <ListItemSmall component="li">
-                    - Wir können schrittweise von Java Migrieren
+                    - We can migrate step by step from Java
                 </ListItemSmall>
             </List>
         }
@@ -49,11 +49,11 @@ const KotlinBasic = [
         body={
             <div>
                 <ListItemSmall component="li">
-                    Explizite Typangabe
+                    Explicit type specification
                 </ListItemSmall>
                 <iframe src="https://pl.kotl.in/R11jwUxSK?from=1&to=3" style={{ width: '100%' }}></iframe>
                 <ListItemSmall component="li">
-                    Implizite Typangabe
+                   Implicit type specification
                 </ListItemSmall>
                 <iframe src="https://pl.kotl.in/KQrqd_CGc?from=1&to=1" style={{ width: '100%' }}></iframe>
                 <a href="https://kotlinlang.org/docs/basic-syntax.html#functions">Doc</a>
@@ -77,11 +77,11 @@ const KotlinBasic = [
         body={
             <div>
                  <ListItemSmall component="li">
-                    Explizite Typangabe
+                 Explicit type specification
                 </ListItemSmall>
             <iframe src="https://pl.kotl.in/jiy9jOm6d?from=2&to=6" style={{ width: '100%' }}></iframe>
             <ListItemSmall component="li">
-                    Implizite Typangabe
+            Implicit type specification
                 </ListItemSmall>
                 <iframe src="https://pl.kotl.in/BZGkv-RCC?from=2&to=6" style={{ width: '100%' }}></iframe>
                 <a href="https://kotlinlang.org/docs/basic-syntax.html#functions">Doc</a>
@@ -117,26 +117,26 @@ const KotlinBasic = [
     />,  
     () => <TextLayout
         title="Kotlin"
-        subtitle="Aufgabe"
+        subtitle="Excercise"
         body={
            <List>
                 <ListItemSmall component="li">
-                  1. Erstelle eine User Klasse und überlege dir 3 Eigenschaften eines Users
+                  1. Create a user class and think about 3 properties of a user
                 </ListItemSmall>
                  <ListItemSmall component="li">
-                  2. Erstelle einen User Service, welcher eine liste von Nutzern verwaltet
+                  2. Create a user service that manages a list of users
                 </ListItemSmall>
                  <ListItemSmall component="li">
-                  3. Füge eine User add Methode hinzu
+                  3. Add a user add method
                 </ListItemSmall>
                  <ListItemSmall component="li">
-                  4. Füge eine list Users Methode hinzu
+                  4. Add a list users method
                 </ListItemSmall>
                  <ListItemSmall component="li">
-                  6. Bonus: Setlle sicher das die zurück gegebene Liste nich modifizierbar ist
+                  6. Bonus: Make sure that the returned list is not modifiable
                 </ListItemSmall>
                  <ListItemSmall component="li">
-                  7. Bonus: Füge eine remove User Methode hinzu
+                  7. Bonus: Add a remove user method
                 </ListItemSmall>
            </List>
         }

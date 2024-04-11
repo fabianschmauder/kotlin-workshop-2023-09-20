@@ -63,14 +63,14 @@ const KotlinOptimization = [
     />,
     () => <TextLayout
         title="Kotlin"
-        subtitle="Aufgabe"
+        subtitle="Excercise"
         body={
             <List>
                 <ListItemSmall component="li">
-                    1. Füge einen Post endpunkt hinzu
+                    1. Add a post endpoint
                 </ListItemSmall>
                 <ListItemSmall component="li">
-                    2. Füge eine validierung hinzu
+                    2. Add a validation
                 </ListItemSmall>
 
             </List>
@@ -126,25 +126,25 @@ const KotlinOptimization = [
 
     () => <TextLayout
         title="Kotlin"
-        subtitle="Aufgabe"
+        subtitle="Excercise"
         body={
             <List>
                 <ListItemSmall component="li">
-                    1. Erweitere das Produkt um ein enum für Kategorie
+                    1. Add an enum for category to the product
                 </ListItemSmall>
 
                 <ListItemSmall component="li">
-                    2. Erweitere das Produkt um ein int wert (z.b. haltbarkeit)
+                    2. Add an int value to the product (e.g. shelf life)
                 </ListItemSmall>
 
                 <ListItemSmall component="li">
-                    3. füge eine validierung hinzu. 
-                    Wenn der int wert kleine 0 schmeiss einen Fehler, zwischen 0 und 100, größer 100 schmeiße einen Fehler
+                    3. add a validation. 
+                  If the int value is less than 0 throw an error, between 0 and 100, greater than 100 throw an error
                 </ListItemSmall>
 
 
                 <ListItemSmall component="li">
-                    4. Nutze eine for loop um beim start des Server 50 Produkte hinzu zufügen
+                    4. Use a for loop to add 50 products at the start of the server
                 </ListItemSmall>
             </List>
         }
@@ -162,11 +162,11 @@ const KotlinOptimization = [
     />,
     () => <TextLayout
         title="Kotlin"
-        subtitle="Aufgabe"
+        subtitle="Excercise"
         body={
             <List>
                 <ListItemSmall component="li">
-                    1. Erweitere dein Produkt um eine infix funktion
+                    1. Add an infix function to your product
                 </ListItemSmall>
 
             </List>
@@ -184,11 +184,11 @@ const KotlinOptimization = [
     />,
     () => <TextLayout
         title="Kotlin"
-        subtitle="Aufgabe"
+        subtitle="Excercise"
         body={
             <List>
                 <ListItemSmall component="li">
-                    1. schreibe eine funktion welche Produkte nach ihrer Kategorie in eine map und list sortiert und über einen endpunkt zurück gibt
+                    1. write a function that sorts products by their category into a map and list and returns them via an endpoint
                 </ListItemSmall>
 
             </List>
@@ -206,11 +206,11 @@ const KotlinOptimization = [
     />,
     () => <TextLayout
         title="Kotlin"
-        subtitle="Aufgabe"
+        subtitle="Excercise"
         body={
             <List>
                 <ListItemSmall component="li">
-                    1. Nutze type alias für die Map und List der Produkte
+                    1. Use type alias for the map and list of products
                 </ListItemSmall>
 
             </List>
@@ -232,11 +232,11 @@ const KotlinOptimization = [
     />,
     () => <TextLayout
         title="Kotlin"
-        subtitle="Aufgabe"
+        subtitle="Excercise"
         body={
             <List>
                 <ListItemSmall component="li">
-                    1. Migriere das Produkt zu einer Entity
+                    1. Migrate the product to an entity
                 </ListItemSmall>
 
             </List>
@@ -337,24 +337,24 @@ const KotlinOptimization = [
     />,
     () => <TextLayout
         title="Kotlin"
-        subtitle="Aufgabe"
+        subtitle="Excercise"
         body={
             <List>
 
                 <ListItemSmall component="li">
-                    1. Schreibe eine funktion die 100_000 threads startet
+                    1. Write a function that starts 100_000 threads
                 </ListItemSmall>
 
                 <ListItemSmall component="li">
-                    2. Schreibe eine funktion die 100_000 couroutines startet
+                    2. Write a function that starts 100_000 couroutines
                 </ListItemSmall>
 
                 <ListItemSmall component="li">
-                    3. Nutze suspend für deine endpunkte
+                    3. Use suspend for your endpoints
                 </ListItemSmall>
 
                 <ListItemSmall component="li">
-                    4. füge ein nachrichten versenden beim speichern ein
+                    4. Add a send message when saving
                 </ListItemSmall>
             </List>
         }
@@ -362,18 +362,18 @@ const KotlinOptimization = [
     () => <Cover title="Kotlin" subtitle={"Migration"} />,
     () => <TextLayout
         title="Kotlin"
-        subtitle="Aufgabe"
+        subtitle="Excercise"
         body={
             <List>
 
                 <ListItemSmall component="li">
-                    1. Erweitere folgendes projekt um einen endpunkt mit Kotlin 
+                    1.  Add an endpoint to the following project with Kotlin  
                     <a href="https://github.com/syqu22/spring-boot-shop-sample">GitHub</a>
                 </ListItemSmall>
 
 
                 <ListItemSmall component="li">
-                    2. Migriere teile des shops 
+                    2. Migrate parts of the store  
                   
                 </ListItemSmall>
                 
@@ -383,12 +383,12 @@ const KotlinOptimization = [
     () => <Cover title="Kotlin" subtitle={"ktor"} />,
     () => <TextLayout
         title="Kotlin"
-        subtitle="Aufgabe"
+        subtitle="Excercise"
         body={
             <List>
 
                 <ListItemSmall component="li">
-                    1. schreibe den shop mit ktor
+                    1. Write the store with ktor
                 </ListItemSmall>
                 
             </List>

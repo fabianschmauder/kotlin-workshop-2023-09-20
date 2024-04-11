@@ -1,7 +1,7 @@
 const timeTable = [
 	{
 		time: "9:00",
-		text: "Willkommen",
+		text: "Welcome",
 	},
 	{
 		time: "9:30",
@@ -9,7 +9,7 @@ const timeTable = [
 	},
 	{
 		time: "12:30",
-		text: "Pause",
+		text: "Break",
 	},
 	
 	{

@@ -58,20 +58,20 @@ const KotlinSpring = [
     />,  
     () => <TextLayout
         title="Kotlin"
-        subtitle="Aufgabe Spring Boot"
+        subtitle="Excercise Spring Boot"
         body={
            <List>
                 <ListItemSmall component="li">
-                  1. Erstelle ein Spring Boot Web Kotlin Projekt
+                  1. Create a Spring Boot Web Kotlin project
                 </ListItemSmall>
                  <ListItemSmall component="li">
-                  2. Erstelle einen User Service, welcher eine liste von Usern verwaltet (Name reicht)
+                  2. Create a user service that manages a list of users (name is sufficient)
                 </ListItemSmall>
                  <ListItemSmall component="li">
-                  3. Erstelle einen User Controller, welcher eine Liste von Usern zurück gibt
+                  3. Create a user controller that returns a list of users
                 </ListItemSmall>
                  <ListItemSmall component="li">
-                  4. Bonus: Nutze eine User Klasse mit Id und Name
+                  4. Bonus: Use a user class with id and name
                 </ListItemSmall>
            </List>
         }
@@ -84,7 +84,7 @@ const KotlinSpring = [
             <List>
           
                 <iframe src="https://pl.kotl.in/_HiofvWzn?from=2&to=7" style={{ width: '100%', minHeight: '300px' }}></iframe>
-                <a href="https://kotlinlang.org/docs/idioms.html#filter-a-list">Dokumentation</a>
+                <a href="https://kotlinlang.org/docs/idioms.html#filter-a-list">Doc</a>
             </List>
         }
     />,
@@ -95,7 +95,7 @@ const KotlinSpring = [
             <List>
           
                 <iframe src="https://pl.kotl.in/zR8w07Omb" style={{ width: '100%', minHeight: '300px' }}></iframe>
-                <a href="https://kotlinlang.org/docs/jvm-test-using-junit.html#run-a-test">Dokumentation</a>
+                <a href="https://kotlinlang.org/docs/jvm-test-using-junit.html#run-a-test">Doc</a>
             </List>
         }
     />,
@@ -105,7 +105,7 @@ const KotlinSpring = [
         body={
             <List>
                 <iframe src="https://pl.kotl.in/cd8_-d0V1" style={{ width: '100%', minHeight: '300px' }}></iframe>
-                <a href="https://www.baeldung.com/kotlin/spring-boot-testing">Dokumentation</a>
+                <a href="https://www.baeldung.com/kotlin/spring-boot-testing">Doc</a>
             </List>
         }
     />,
@@ -125,7 +125,7 @@ const KotlinSpring = [
         //    <List>
          // 
           //      <iframe src="https://pl.kotl.in/zR8w07Omb" style={{ width: '100%', minHeight: '300px' }}></iframe>
-           //     <a href="www.test.de">Dokumentation</a>
+           //     <a href="www.test.de">Doc</a>
            // </List>
        // }
     ///>
